@@ -54,11 +54,11 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
+  --color-primary: white;
+  --color-text: #d1d1d1;
+  --color-text-light: #95b2b2;
+  --color-heading: #f2f2f2;
+  --color-heading-black: #f00048;
   --color-accent: #d1dce5;
 }
 
@@ -75,6 +75,7 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1e1f21;
 }
 
 body {
@@ -230,7 +231,7 @@ table thead tr th {
 /* Link */
 
 a {
-  color: var(--color-primary);
+  color: #f00048;
 }
 
 a:hover,
